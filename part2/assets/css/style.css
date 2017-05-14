@@ -1,0 +1,145 @@
+body {
+	overflow-x:hidden;
+	padding:0;
+	margin:0;
+}
+.four_div {
+	width:20%;
+	height:100%;
+	display:inline-block;
+	margin:0;
+	vertical-align:top;
+}
+.two_div {
+	width:40%;
+	height:100%;
+	display:inline-block;
+	margin:0;
+	vertical-align:top;
+}
+.two_div p {
+	margin-top:5px;
+	line-height: 20px;
+}
+.four_div .content , .two_div .content {
+	height:100%;
+	margin:0 15px;
+	font-size:15px;
+}
+#second_div .two_div .content {
+	padding: 15px;
+}
+
+#second_div .four_div .content {
+    text-align: center;
+    line-height: 102px;
+    font-size: 20px;
+}
+div#first_div .four_div .content {
+    padding: 15px;
+}
+#first_div .four_div .content:last-child , #second_div .four_div .content:last-child  {
+	margin-right:0;
+}
+#first_div {
+	height:auto;
+	width: 100%;
+    font-size: 0;
+	text-align:center;
+	color: #fff;
+}
+#second_div {
+	background-color:#e2f2f1;
+	color:#82b582;
+	height:auto;
+	width:100%;
+	margin:0;
+	font-size: 0;
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+}
+table {
+	width: 100%;
+    background-color: #fafbfd;
+}
+table tr td:first-child {
+	color:#3ab4fd;
+	padding-left:15px;
+}
+table tr td:nth-child(2) {
+	color:gray;
+	padding-right:0;
+}
+table tr td:nth-child(2)  p {
+	margin-left:0;
+}
+
+table tr td {
+	background-color: #fafbfd;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+	border:0;
+    border-bottom: 1px solid #ddd;
+}
+table tr td ul {
+	margin:15px;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+table tr td ul li:last-child {
+	border-bottom:0 !important;
+}
+table tr td ul li {
+	border-bottom: 1px solid #ddd !important;
+    height: 40px;
+    overflow: hidden;
+}
+.blue {background-color:#3ab4fd;}
+.dark_gray {background-color:#79919d;}
+.light_gray {background-color:#93a3b0;}
+.red {color:red;}
+.green {color:green;}
+p.head_p {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.center {
+	text-align:center;
+}
+.td_content {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+td p {
+    margin: auto;
+    height: 100%;
+	padding: 5px 0;
+    margin-left: 15px;
+}
+ul.light_blue p {
+	background-color:#e2f3fb;
+}
+ul.light_gray2 p {
+	background-color:#f1f5f6;
+}
+button {
+    border: 0;
+    box-shadow: #bdb5b5 0px 0px 3px 1px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 13px;
+}
+.sup {
+    vertical-align: super;
+}
+
+
+
+
+
+

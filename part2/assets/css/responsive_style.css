@@ -1,0 +1,25 @@
+@media (max-width: 520px) {
+	#first_div {
+		height: 170px;
+		overflow: hidden;
+	}
+	body {font-size:12px !important;}
+	div#first_div .four_div .content {
+		padding: 15px 0;
+	}
+	.four_div .content, .two_div .content {
+		margin: 0 5px;
+	}
+	#second_div .four_div .content {
+		line-height: 215px;
+	}
+	ul.light_gray2 p , ul.light_blue p{
+		line-height: 40px;
+	}
+	table tr td ul li {
+		height: 55px;
+	}
+	#second_div .two_div .content {
+		padding: 15px 5px;
+	}
+}
